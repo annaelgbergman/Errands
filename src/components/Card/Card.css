@@ -1,0 +1,54 @@
+.Card .d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activate-btn {
+    background-color: #D9A757;
+    color: #fff;
+    padding: .8em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.activate-btn:hover {
+    background-color: #cf8c21;
+}
+
+.time-date-email{
+    padding: 0 0 1rem 0;
+    font-size: 13px;
+}
+.Card {
+    width: 100%;
+    box-shadow: 5px 6px 6px #a5a5a527;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.Card .title {
+    color: #3D6AB3;
+}
+
+
+
+
+/* -- Case Group -- */
+.cs-group {
+    display: flex;
+    padding-top: 3rem;
+}
+.cs-status {
+    padding-left: .4rem;
+}
+.cs-status-active {
+    color: #116622;
+}
+.cs-status-inactive {
+    color: #c02323;
+}
